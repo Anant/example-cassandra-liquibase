@@ -5,7 +5,7 @@
 		<tagDatabase tag="version_1.0.1" />
 	</changeSet>
 
-	<changeSet id="3" author="arpan" context="tags" labels="1.0.2">
+	<changeSet id="3" author="arpan" context="dev" labels="1.0.2">
 		<comment>Adding tags table</comment>
 		<sql>
 			CREATE TABLE tags (
