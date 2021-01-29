@@ -12,9 +12,6 @@ We will also cover how to use Liquibase locally with local Cassandra and Astra.
 </br>
 </br>
 Additional Resources can be found at the end of the repo!
-</br>
-</br>
-
 ## Gitpod and DataStax Astra
 ### Gitpod Setup
 1. Open this repo in Gitpod
