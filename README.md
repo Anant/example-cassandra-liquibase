@@ -167,9 +167,9 @@ liquibase rollback version_1.0.1
 13. With Astra studio, confirm rollback occured by seeing that the tags table is now gone and the dbchangelog table has been updated.
 
 ## Additional Resources:
-- [Webinar with Live Demo]
-- [Accompanying Blog]
-- [Accompanying SlideShare]
+- [Webinar with Live Demo](https://youtu.be/okPTMB6B_Rw)
+- [Accompanying Blog](https://blog.anant.us/apache-cassandra-lunch-34-liquibase-and-cassandra/)
+- [Accompanying SlideShare](https://www.slideshare.net/AnantCorp/apache-cassandra-lunch-34-liquibase-and-cassandra)
 - [Cassandra Setup Docs](https://docs.liquibase.com/workflows/database-setup-tutorials/cassandra.html?Highlight=cassandra)
 - [Liquibase’s Blog on Liquibase and Cassandra (dockerized)](https://www.liquibase.org/blog/running-liquibase-apache-cassandra)
 - [Astra Setup Docs](https://docs.liquibase.com/workflows/database-setup-tutorials/cassandra-astra.html?Highlight=cassandra)
