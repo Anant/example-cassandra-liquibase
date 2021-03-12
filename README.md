@@ -5,7 +5,7 @@ In this repository, we will discuss how to connect Liquibase with Apache Cassand
 We recommend first trying out the method with Gitpod and DataStax Astra as with this method you will not have to do any manual local installations and you can get a free managed Cassandra instance in the cloud. Hit the button below to get started!
 </br>
 </br>
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/adp8ke/Liquibase-and-Cassandra) 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Anant/Liquibase-and-Cassandra) 
 </br>
 </br>
 We will also cover how to use Liquibase locally with local Cassandra and Astra. 
