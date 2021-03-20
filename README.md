@@ -5,7 +5,7 @@ In this repository, we will discuss how to connect Liquibase with Apache Cassand
 We recommend first trying out the method with Gitpod and DataStax Astra as with this method you will not have to do any manual local installations and you can get a free managed Cassandra instance in the cloud. Hit the button below to get started!
 </br>
 </br>
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Anant/Liquibase-and-Cassandra) 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Anant/example-cassandra-liquibase) 
 </br>
 </br>
 We will also cover how to use Liquibase locally with local Cassandra and Astra. 
@@ -18,8 +18,8 @@ Additional Resources can be found at the end of the repo!
 2. Run the following commands to make a liquibase directory, download liquibase into it, and add liquibase to PATH
 ```bash
 mkdir liquibase
-curl -L -s https://github.com/liquibase/liquibase/releases/download/v4.2.2/liquibase-4.2.2.tar.gz | tar xvz -C /workspace/Liquibase-and-Cassandra/liquibase
-export PATH=$PATH:/workspace/Liquibase-and-Cassandra/liquibase
+curl -L -s https://github.com/liquibase/liquibase/releases/download/v4.2.2/liquibase-4.2.2.tar.gz | tar xvz -C /workspace/example-cassandra-liquibase/liquibase
+export PATH=$PATH:/workspace/example-cassandra-liquibase/liquibase
 ```
 3. Run the following commands to change the Gitpod's Java version to 1.8. You may run into timeout errors using the latest Java version, so we will set it to 1.8, which was indicated by the Liquibase team. When prompted to set the installed java version as default, select YES. 
 ```bash
@@ -31,8 +31,8 @@ java -version
 ```
 5. Download prerequisite JARs to talk to Cassandra and store them in `/liquibase/lib`
 ```bash
-wget -P /workspace/Liquibase-and-Cassandra/liquibase/lib https://github.com/liquibase/liquibase-cassandra/releases/download/liquibase-cassandra-4.2.2/liquibase-cassandra-4.2.2.jar
-wget https://downloads.datastax.com/jdbc/cql/2.0.4.1004/SimbaCassandraJDBC42-2.0.4.1004.zip && unzip SimbaCassandraJDBC42-2.0.4.1004.zip -d /workspace/Liquibase-and-Cassandra/liquibase/lib && rm SimbaCassandraJDBC42-2.0.4.1004.zip
+wget -P /workspace/example-cassandra-liquibase/liquibase/lib https://github.com/liquibase/liquibase-cassandra/releases/download/liquibase-cassandra-4.2.2/liquibase-cassandra-4.2.2.jar
+wget https://downloads.datastax.com/jdbc/cql/2.0.4.1004/SimbaCassandraJDBC42-2.0.4.1004.zip && unzip SimbaCassandraJDBC42-2.0.4.1004.zip -d /workspace/example-cassandra-liquibase/liquibase/lib && rm SimbaCassandraJDBC42-2.0.4.1004.zip
 ```
 ### Using Liquibase with Astra on Gitpod
 1. Rename astra.liquibase.properties to liquibase.properties
